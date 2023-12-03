@@ -4,6 +4,9 @@ import DashBoard from './page/DashBoard';
 import { BrowserRouter as Router ,Routes,Route} from 'react-router-dom'; // 使用 BrowserRouter
 import ProjectList from './page/ProjectList';
 import PrivateRoute from './route/PrivateRoute';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
