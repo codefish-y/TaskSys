@@ -20,8 +20,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     Role: {
       type: DataTypes.STRING,
-      allowNull: false,
-      defualtValue: '0',
+      allowNull: true,
+      defaultValue: '0',
     },
   });
   return User;
